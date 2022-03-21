@@ -1,39 +1,64 @@
 h1 {
-    
-    color:blueviolet;
+    line-height: 2;
+    font-family: fantasy;
+    font-size: 3rem;
+    color: #66BFBF;
 }
 
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+
 body {
-    background-color: #53dfd8;
+    background-color: #b1cccc;
     text-align: center;
 }
 
 .top-container {
-    background-color: rgb(67, 198, 202);
+    background-color:#b1cccc ;
     position: relative;
     padding: 100px;
 
    
 }
-.middle-container {
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
 
+.middle-container {
+    background-color: #b1cccc;
 }
 
 .bottom-container {
-    background-color: brown;
-    width: 200px;
-    height: 200px;
-    
+    background-color: #b1cccc;
 }
 
 .second-cloud {
     position:absolute;
+    left: 300px;
+
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 200px;
+}
+.food-serving {
+    width: 300px;
+}
+
+.chillies {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
