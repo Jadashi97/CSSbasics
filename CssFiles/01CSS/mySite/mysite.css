@@ -1,6 +1,6 @@
 h1 {
+    font-family: cursive;
     line-height: 2;
-    font-family: fantasy;
     font-size: 3rem;
     color: #66BFBF;
 }
@@ -8,7 +8,7 @@ h1 {
 h2 {
     font-weight: normal;
     color: #66BFBF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
     font-size: 1.5rem;
 }
 
@@ -22,12 +22,11 @@ a {
 
 
 body {
-    background-color: #b1cccc;
     text-align: center;
 }
 
 .top-container {
-    background-color:#b1cccc ;
+    background-color:#EAF6F6;
     position: relative;
     padding: 100px;
 
@@ -35,11 +34,9 @@ body {
 }
 
 .middle-container {
-    background-color: #b1cccc;
 }
 
 .bottom-container {
-    background-color: #b1cccc;
 }
 
 .second-cloud {
@@ -57,8 +54,14 @@ body {
 }
 
 .chillies {
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 15%;
+    float: left;
+    
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
